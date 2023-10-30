@@ -1,0 +1,16 @@
+# build
+.gradle/
+build/
+bin/
+out/
+tmp/
+local.properties
+.*log
+logs/
+
+# ide
+*.iml
+.idea/
+
+# OS
+.DS_Store
