@@ -7,8 +7,7 @@ sample of local/aoa server
 https://github.com/petrukhnov/aoa-local-server
 https://github.com/petrukhnov/AoaAppPetrukhnov
 
-## How AOA works
-
+## How AOA connection works
 
 AOA replace TCP/IP part of OSI stack. It provides 2 byte buffers (rx/tx).
 
@@ -21,8 +20,9 @@ Connection sequence (simplified):
 5. Android device receive request. If app not installed/registered, it shows provided information.
 6. As app already installed and could handle AOA device (PC with running this server) it continue handshake.
 7. When AOA connection established server sends "pingSrv" and android device respond with "pongAndroid" which could be seen in the logs.
+8. Then both applications could continue to exchange messages via AOA
 
-## How to try at home
+## How to try on your own
 
 1. Download both projects (+ AndroidStudio, Idea, Java, etc)
 2. Start server, connect phone via usb
