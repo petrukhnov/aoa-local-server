@@ -5,7 +5,7 @@ sample of local/aoa server
 ## Related projects
 
 https://github.com/petrukhnov/aoa-local-server
-
+https://github.com/petrukhnov/AoaAppPetrukhnov
 
 ## How AOA works
 
